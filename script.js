@@ -35,10 +35,12 @@ function backgroundColour(){
 // sets stored tasks from local storage to inputs
 function renderSavedTasks(){
     var savedtasks = JSON.parse(localStorage.getItem("schedule"));
-    for (var i = 0; i < savedtasks.length; i++){
-        timeSlot.children[i].children[1].value = savedtasks[i].task;
-        schedule[i].task = savedtasks[i].task;
-     };    
+    if (savedtasks){
+        for (var i = 0; i < savedtasks.length; i++){
+            timeSlot.children[i].children[1].value = savedtasks[i].task;
+            schedule[i].task = savedtasks[i].task;
+         };  
+    };
 };
 
 // function to save content entered into input 
