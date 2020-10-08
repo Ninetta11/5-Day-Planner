@@ -1,5 +1,7 @@
 # 5-Day-Planner
 Assignment 5: Work Day Scheduler
+<br>
+<a href="https://ninetta11.github.io/5-Day-Planner/">Access Here</a>
 
 ## Functionality
 This is the first time I have been able to execute the functionality of an assignment inclusive of javascript successfully! I am hopeful that this is a reflection on my knowledge advancement in javascript rather than the ease of the task. 
